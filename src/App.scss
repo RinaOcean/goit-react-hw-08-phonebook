@@ -1,7 +1,14 @@
-.phonebook {
-  display: flex;
-  width: 500px;
-  padding: 50px;
-  flex-direction: column;
-  margin: 0 auto;
+section {
+  // display: flex;
+  // align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 120px;
+  // padding-bottom: 120px;
+  background: linear-gradient(
+    187deg,
+    rgba(255, 213, 49, 1) 20%,
+    rgba(212, 147, 179, 1) 90%
+  );
 }

@@ -4,7 +4,17 @@
 
   input {
     width: 400px;
-    margin-top: 5px;
+    // margin-top: 5px;
     margin-bottom: 20px;
+    border-style: none;
+    background-color: transparent;
+    border-bottom: 2px solid #b8809c;
+  }
+
+  input:hover,
+  input:focus {
+    outline-style: none;
+    border-bottom: 2px solid #a55179;
+    background-color: transparent;
   }
 }

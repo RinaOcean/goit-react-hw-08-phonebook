@@ -1,0 +1,28 @@
+.ImageWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  vertical-align: middle;
+  font-family: 'Dancing Script';
+  background-image: url('../../imgs/back.jpg');
+
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+
+  .TitleHello {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'Dancing Script';
+    font-weight: 900;
+    font-size: 100px;
+    color: #ffffff;
+  }
+}

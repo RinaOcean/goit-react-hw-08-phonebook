@@ -1,7 +1,9 @@
-.ContactForm {
+.FormWrapper {
   display: flex;
   margin: 0 auto;
   width: 400px;
+
+  // height: 447px;
   padding: 40px;
 
   flex-direction: column;
@@ -29,6 +31,7 @@
   input:focus {
     outline-style: none;
     border-bottom: 2px solid #a55179;
+    background-color: transparent;
   }
 
   label {
@@ -45,19 +48,33 @@
     margin-top: 40px;
     cursor: pointer;
     outline-style: none;
-    border: 2px solid #a55179;
+    border: 2px solid #852459;
     background-color: transparent;
     font-weight: 600;
     font-size: 20px;
-    color: #a55179;
+    color: #852459;
 
     transition: 1s all ease;
   }
 
   button:hover,
   button:focus {
-    background-color: #a55179;
+    background-color: #852459;
     color: #fff;
     transition: all 0.6s ease;
   }
+}
+
+.TitleWrapper {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin: -40px -40px 45px -40px;
+  padding: 0px 40px;
+  // text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+  background-color: #852459;
+  color: #fff;
 }

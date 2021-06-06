@@ -1,0 +1,51 @@
+.Header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1100;
+  display: flex;
+  width: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  background-color: #f094c0;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.NavList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavLink {
+  text-decoration: none;
+
+  font-size: 20px;
+  color: #fff;
+
+  &:first-child {
+    margin-right: 15px;
+  }
+}
+
+.NavLink:hover {
+  // font-weight: 700;
+  color: rgb(133, 36, 89);
+}
+
+.NavLink--active {
+  font-weight: 700;
+
+  // border-radius: 10px;
+
+  // background-color: #5a3a64;
+  color: rgb(133, 36, 89);
+}

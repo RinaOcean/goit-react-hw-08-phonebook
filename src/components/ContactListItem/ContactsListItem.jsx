@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { removeContact, getFilteredContactList } from '../../redux/contacts';
+import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 
 import './ContactsListItem.scss';
 
@@ -11,7 +12,7 @@ const ContactsListItem = ({ onDelete, contactsItems }) => (
         <li key={id} className="ContactsListItem">
           {name}: {number}
           <button type="button" onClick={() => onDelete(id)}>
-            Delete
+            <DeleteForeverIcon />
           </button>
         </li>
       );
