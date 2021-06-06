@@ -24,7 +24,7 @@ class LoginPage extends Component {
     const { email, password } = this.state;
 
     return (
-      <section>
+      <section className="sectiion_log_reg">
         <div className="FormWrapper">
           <div className="TitleWrapper">
             <h1 className="Title">Login</h1>

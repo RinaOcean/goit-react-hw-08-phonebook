@@ -27,7 +27,7 @@ class RegisterPage extends Component {
     const { name, email, password } = this.state;
 
     return (
-      <section>
+      <section className="sectiion_log_reg">
         <div className="FormWrapper">
           <div className="TitleWrapper">
             <h1 className="Title">Registration</h1>
